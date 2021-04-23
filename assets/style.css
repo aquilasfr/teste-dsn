@@ -65,9 +65,27 @@ nav {
 
     .header__paragraph--small {
         text-align: left;
-    }
-    
+    }    
 }
+
+section {
+    color: #888888;
+    text-align: left;
+    width: 520px;
+    height: 220px;
+    margin: 0 500px;
+}
+
+.section__title {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.section__title__paragraph--two {
+    margin-top: 20px;
+}
+
+
 
 
     
