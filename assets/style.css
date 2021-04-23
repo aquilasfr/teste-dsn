@@ -18,9 +18,10 @@ header {
     font-weight: bold;
 }
 
-.header__paragraph__first__little {
-    margin-top: 10px;
+.header__paragraph__first__enjoy {
+    margin-top: 25px;
     margin-bottom: 40px;
+    font-size: 14px;
 
 }
 
