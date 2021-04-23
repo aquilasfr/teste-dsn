@@ -5,7 +5,7 @@ header {
     color: #FFFFFF;
     text-align: center;
     font: normal normal bold Helvetica Neue;
-    padding: 30px;
+    padding: 40px;
     height: 100%;
 }
 
@@ -16,7 +16,12 @@ header {
 .header__paragraph__first__title {
     font-size: 30px;
     font-weight: bold;
-    margin: 0 0 10px 0;
+}
+
+.header__paragraph__first__little {
+    margin-top: 10px;
+    margin-bottom: 40px;
+
 }
 
 .button {
