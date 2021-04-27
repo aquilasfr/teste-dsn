@@ -69,11 +69,10 @@ nav {
 }
 
 .container {
-    max-width: 100%;
-    display: flex;
+    max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 130px;
+    margin: 0 auto;
     justify-content: space-around;
 }
 
@@ -100,7 +99,6 @@ nav {
     }   
         
 }
-
 
 .form__label {
     display: flex;
@@ -135,14 +133,14 @@ nav {
 
 .master {
     display: flex;
-    margin-left: 320px;
-    margin-right: 320px;
+    width: 100%;
+    justify-content: center;
 }
 
 .master__row {
     display: block;
     height: 2px;
-    width: 530px;
+    width: 38%;
     margin-top: 80px;
     margin-left: 10px;
     margin-right: 10px;
@@ -156,4 +154,6 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     color: #888888;
     font-weight: bold;
+    white-space: nowrap;
 }
+
