@@ -157,3 +157,14 @@ nav {
     white-space: nowrap;
 }
 
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 50px
+}
+
+.list__square {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #707070;
+}
