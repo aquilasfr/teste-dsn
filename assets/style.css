@@ -160,10 +160,16 @@ nav {
 .list {
     display: flex;
     flex-wrap: wrap;
-    margin: 40px 50px
+    margin-top: 40px;
+    justify-content: space-around;
 }
 
-.list__square {
+.list__item {
+    width: 202px;
+    
+}
+
+.list__item__square {
     width: 200px;
     height: 150px;
     border: 1px solid #707070;
