@@ -294,12 +294,21 @@ form input[type=submit] {
     color: #888888;
 }
 
+
 .footer {
-    height: 293px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 635px;
     background-color: #707070;
+    color: #FFFFFF;
+    height: 293px;
 }
 
 .footer-paragraph {
-    margin-top: 50px;
+    margin-top: 147px;
+}
+
+.footer-impulse {
+    text-align: center;
+    margin-top: 8px;
 }
