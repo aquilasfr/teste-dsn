@@ -248,12 +248,58 @@ nav {
 }
 
 .fill-in {
+    width: 100%;
+}
+
+.fill-in__paragraph {
+    text-align: center;
     margin: 50px 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #888888;
 }
 
-.form-friend  {
-        
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-friend {
+    width: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 5px;
+}
+
+.input-friend {
+    width: 340px;
+    height: 30px;
+    border: 1px solid #707070;
+}
+
+form input[type=submit] {
+    margin: 40px auto;
+    display: block;
+    width: 260px;
+    height: 39px;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    color: #888888;
+}
+
+.footer {
+    height: 293px;
+    text-align: center;
+    background-color: #707070;
+}
+
+.footer-paragraph {
+    margin-top: 50px;
 }
