@@ -267,6 +267,24 @@ nav {
     width: 720px;
 }
 
+@media screen and (max-width: 600px) {
+    .form-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+
+    .form-group {
+        margin-top: 20px;
+    }
+
+    .input-friend {
+        margin-top: 5px;
+    }
+    
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -310,6 +328,13 @@ nav {
     height: 293px;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        height: 158px;
+    }
+        
 }
 
 .footer-paragraph {
