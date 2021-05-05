@@ -237,6 +237,13 @@ nav {
 
 }
 
+@media screen and (max-width: 600px) {
+    .list__item__description-wrapper__button {
+        width: 170px;
+        height: 30px;
+    }
+}
+
 .button__more-products {
     width: 260px;
     height: 39px;
