@@ -305,17 +305,20 @@ nav {
 .footer {
     display: flex;
     flex-direction: column;
-    padding: 0 635px;
     background-color: #707070;
     color: #FFFFFF;
     height: 293px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-paragraph {
-    margin-top: 147px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
 }
 
 .footer-impulse {
-    text-align: center;
-    margin-top: 8px;
+    margin-top: 10px;
 }
+
